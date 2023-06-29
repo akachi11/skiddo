@@ -4,7 +4,6 @@ html{
     height: 100%;
 }
 
-
 input{
     border: none;
 }
@@ -72,6 +71,66 @@ body{
 
 .logo a{
     text-decoration: none;
+}
+
+.top-selling{
+    padding: 0 3%;
+    margin-top: 3rem;
+}
+
+.t-sell-text{
+    font-family: Poppins, 'sans-serif';
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.top-cat-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+}
+
+.cat-card-desc{
+    padding-top: .5rem;
+    line-height: .3rem;
+}
+
+.ccd-artist{
+    color: #0150A7;
+    font-family: Poppins, 'sans-serif';
+    font-weight: 900;
+    font-size: .8rem;
+}
+
+.ccd-events{
+    font-size: .9rem;
+}
+
+.top-cat-title{
+    font-family: Poppins, 'sans-serif';
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.s-all{
+    font-family: Poppins, 'sans-serif';
+    font-size: .8rem;
+    font-weight: 900;
+    color: #0150A7;
+}
+
+.cat-card{
+    display: flex;
+}
+
+.cat-card img{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 2px;
+    padding-right: .8rem;
 }
 
 .logo-text{
